@@ -1,6 +1,6 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-import java.math.*;//importacion de libreria
+//import java.math.*;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
@@ -16,5 +16,14 @@ public class Main {
         System.out.println("Digite un numero");
         numero=sc.nextInt();
         System.out.println("El numero digitado es: "+numero);
+        /*subir a git
+        * git init
+           git add .
+           *   git config --global user.email "you@example.com"
+               git config --global user.name "Your Name"
+           git commit -m "first commit"
+            git remote add origin https://github.com/rafaelina/Programacion5to.git
+            git push -u origin main
+            **/
     }
 }
